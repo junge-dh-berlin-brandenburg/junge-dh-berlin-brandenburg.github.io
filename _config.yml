@@ -32,7 +32,6 @@ theme: minima
 plugins:
   - jekyll-feed
 header_pages:
-  - about.html
   - index.html
   - CfP_Anti-Konferenz_2026.md
 
