@@ -12,7 +12,7 @@ layout: default
 
 2\. Oktober 2026 – Mehringhof, Kreuzberg, Berlin
 
-Organisiert vom Netzwerk junge Digital Humanities Berlin-Brandenburg in Kooperation mit der AG Empowerment des DHd-Verbands
+Organisiert vom Netzwerk junge Digital Humanities Berlin-Brandenburg in Kooperation mit dem Netzwerk Digitale Geisteswissenschaften Potsdam und der AG Empowerment des DHd-Verbands
 
 Wissenschaftliche Konferenzen zeigen Forschung meist von ihrer besten Seite: klare Ergebnisse, erfolgreiche Projekte, überzeugende Narrative. Die weniger glanzvollen Aspekte – Sackgassen, methodische Probleme, unerwartete Ergebnisse oder gescheiterte Ansätze – bleiben häufig unsichtbar. Dabei sind gerade diese Erfahrungen zentral für wissenschaftlichen Erkenntnisgewinn. Besonders in den Digital Humanities entstehen durch neue Methoden, Werkzeuge und interdisziplinäre Zusammenarbeit häufig Situationen, in denen Dinge nicht wie geplant funktionieren. Wir möchten diese Momente als produktiven Teil von Forschung sichtbar machen und einen Raum bieten, in dem offen über Unsicherheiten, Schwierigkeiten und Scheitern im Forschungsprozess gesprochen und reflektiert werden kann.
 
@@ -28,8 +28,6 @@ Beiträge können sich u. a. mit folgenden **Themen** beschäftigen:
 * Reflexion über Lernprozesse durch Fehler
 
 Statt klassischer Vorträge bevorzugen wir **Formate** wie Lightning Talks (max. 5 Minuten), Mini-Workshops (max. 60 Minuten) oder World Cafés. Gerne wünschen wir uns auch experimentelle Formate, etwa Spiele, performative Ansätze oder andere interaktive Beiträge zum Thema Scheitern. Poster sind nicht vorgesehen. Alle Beiträge finden ausschließlich vor Ort statt; Online-Präsentationen sind nicht möglich. 
-
-Organisiert vom Netzwerk junge Digital Humanities Berlin-Brandenburg in Kooperation mit dem Netzwerk Digitale Geisteswissenschaften Potsdam und der AG Empowerment des DHd-Verbands
 
 **Hard Facts zur Einreichung**
 
