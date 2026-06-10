@@ -27,9 +27,9 @@ Beiträge können sich u. a. mit folgenden **Themen** beschäftigen:
 * Scheitern als Thema in Literatur, Kunst oder Geschichte  
 * Reflexion über Lernprozesse durch Fehler
 
-Statt klassischer Vorträge bevorzugen wir **Formate** wie Lightning Talks (max. 5 Minuten), Mini-Workshops (max. 60 Minuten) oder World Cafés. Gerne wünschen wir uns auch experimentelle Formate, etwa Spiele, performative Ansätze oder andere interaktive Beiträge zum Thema Scheitern. Poster sind nicht vorgesehen. Alle Beiträge finden ausschließlich vor Ort statt; Online-Präsentationen sind nicht möglich. Sollten für die Formate Kosten anfallen, bitten wir um rechtzeitige Kontaktaufnahme. 
+Statt klassischer Vorträge bevorzugen wir **Formate** wie Lightning Talks (max. 5 Minuten), Mini-Workshops (max. 60 Minuten) oder World Cafés. Gerne wünschen wir uns auch experimentelle Formate, etwa Spiele, performative Ansätze oder andere interaktive Beiträge zum Thema Scheitern. Poster sind nicht vorgesehen. Alle Beiträge finden ausschließlich vor Ort statt; Online-Präsentationen sind nicht möglich. 
 
- 
+Organisiert vom Netzwerk junge Digital Humanities Berlin-Brandenburg in Kooperation mit dem Netzwerk Digitale Geisteswissenschaften Potsdam und der AG Empowerment des DHd-Verbands
 
 **Hard Facts zur Einreichung**
 
