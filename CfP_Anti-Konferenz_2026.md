@@ -8,11 +8,11 @@ layout: default
 
 ## Anti-Konferenz: Scheitern in den Digital Humanities
 
- 
-
 2\. Oktober 2026 – Mehringhof, Kreuzberg, Berlin
 
-Organisiert vom Netzwerk junge Digital Humanities Berlin-Brandenburg in Kooperation mit dem Netzwerk Digitale Geisteswissenschaften Potsdam und der AG Empowerment des DHd-Verbands
+_Organisiert vom Netzwerk junge Digital Humanities Berlin-Brandenburg in Kooperation mit dem Netzwerk Digitale Geisteswissenschaften Potsdam und der AG Empowerment des DHd-Verbands_
+<br>
+<br>
 
 Wissenschaftliche Konferenzen zeigen Forschung meist von ihrer besten Seite: klare Ergebnisse, erfolgreiche Projekte, überzeugende Narrative. Die weniger glanzvollen Aspekte – Sackgassen, methodische Probleme, unerwartete Ergebnisse oder gescheiterte Ansätze – bleiben häufig unsichtbar. Dabei sind gerade diese Erfahrungen zentral für wissenschaftlichen Erkenntnisgewinn. Besonders in den Digital Humanities entstehen durch neue Methoden, Werkzeuge und interdisziplinäre Zusammenarbeit häufig Situationen, in denen Dinge nicht wie geplant funktionieren. Wir möchten diese Momente als produktiven Teil von Forschung sichtbar machen und einen Raum bieten, in dem offen über Unsicherheiten, Schwierigkeiten und Scheitern im Forschungsprozess gesprochen und reflektiert werden kann.
 
