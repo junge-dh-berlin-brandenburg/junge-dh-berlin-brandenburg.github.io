@@ -1,0 +1,337 @@
+---
+---
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@import "minima";
+
+:root {
+  --jh-text: #212738;
+  --jh-heading: #444444;
+  --jh-accent: #63b4d1;
+  --jh-card-bg: rgba(80, 80, 255, 0.15);
+  --jh-surface-bg: rgba(240, 240, 240, 0.7);
+  --jh-border: rgba(255, 255, 255, 0.18);
+  --jh-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  color: var(--jh-text);
+  font-family: "Space Mono", monospace;
+  background: radial-gradient(circle at top left, #edf8fc 0%, #f5f7fb 48%, #eef3fb 100%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.site-title,
+.page-link {
+  font-family: "Press Start 2P", cursive;
+  color: var(--jh-heading);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  line-height: 1.45;
+}
+
+h1,
+.post-title {
+  font-size: clamp(1.3rem, 2.5vw, 2rem);
+  color: var(--jh-text);
+}
+
+h2 {
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  color: var(--jh-accent);
+}
+
+.site-header,
+.site-footer,
+.post,
+.home {
+  background: var(--jh-surface-bg);
+  border: 1px solid var(--jh-border);
+  border-radius: 20px;
+  box-shadow: var(--jh-shadow);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.site-header,
+.site-footer {
+  margin: 2rem 1rem;
+  padding: 1rem 0;
+}
+
+/* Footer is intentionally disabled for now. */
+.site-footer {
+  display: none;
+}
+
+.site-header {
+  position: relative;
+  overflow: hidden;
+}
+
+.site-header::before {
+  content: "";
+  position: absolute;
+  top: -45%;
+  left: 50%;
+  width: min(1200px, 180%);
+  height: 260%;
+  transform: translateX(-50%);
+  background: url("../assets/img/roystonlodge-Hex-Grid-for-Role-Playing-Game-Maps.svg") center/cover no-repeat;
+  opacity: 0.11;
+  pointer-events: none;
+}
+
+@media screen and (min-width: 1300px) {
+  .site-header::before {
+    /* Grow the texture once wide screens outgrow the default max width. */
+    width: calc(100% + 10rem);
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .site-header::before {
+    width: calc(100% + 18rem);
+  }
+}
+
+.site-title {
+  letter-spacing: 0.02em;
+  line-height: 1.35;
+}
+
+.site-header .wrapper {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.site-header .site-title,
+.site-header .site-nav {
+  float: none;
+}
+
+.site-nav {
+  line-height: 1.4;
+}
+
+.site-nav .trigger {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem 1.1rem;
+}
+
+.site-nav .page-link {
+  color: var(--jh-text);
+  font-size: 0.72rem;
+}
+
+.header-cta-row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0.3rem;
+}
+
+.header-mailing-link,
+.header-mailing-link:visited {
+  background-color: var(--jh-accent);
+  color: #ffffff;
+  border: none;
+  padding: 4px 26px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-family: "Space Mono", monospace;
+  text-decoration: none;
+  line-height: 1.2;
+  transition: background-color 0.3s ease;
+}
+
+.header-mailing-link:hover,
+.header-mailing-link:focus {
+  background-color: #4a9db9;
+  color: #ffffff;
+}
+
+.page-content {
+  padding-top: 1rem;
+}
+
+.wrapper {
+  max-width: 960px;
+}
+
+.post,
+.home {
+  margin: 1rem auto 2rem;
+  padding: 2rem;
+}
+
+.post-content,
+.home p,
+.home li,
+.post-content li {
+  line-height: 1.7;
+}
+
+a,
+a:visited {
+  color: #005f8b;
+}
+
+a:hover,
+a:focus {
+  color: #003f5d;
+}
+
+.post-list-heading,
+.footer-heading {
+  font-family: "Press Start 2P", cursive;
+}
+
+.events-page h3 {
+  margin-bottom: 2rem;
+}
+
+.events-page .glass-card {
+  background: rgba(80, 80, 255, 0.15);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 2rem;
+  color: #212738;
+  text-align: center;
+  margin: 0 auto 1rem;
+  max-width: 800px;
+}
+
+.events-page .grey-card {
+  background: rgba(128, 128, 128, 0.15);
+}
+
+.events-page .white-card {
+  position: relative;
+  overflow: hidden;
+  background: rgba(240, 240, 240, 0.7);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 2rem;
+  color: #212738;
+  text-align: center;
+  margin: 2rem 1rem;
+}
+
+.events-page .header-svg {
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 140%;
+  height: auto;
+  opacity: 0.12;
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+}
+
+.events-page #main-heading,
+.events-page #sub-heading {
+  position: relative;
+  z-index: 1;
+}
+
+.events-page #sub-heading {
+  color: var(--jh-accent);
+}
+
+@media screen and (max-width: 700px) {
+  .site-header .wrapper {
+    gap: 0.6rem;
+  }
+
+  .site-nav {
+    position: static;
+    right: auto;
+    top: auto;
+    border: 0;
+    background: transparent;
+    align-self: stretch;
+    text-align: center;
+  }
+
+  .site-nav label[for="nav-trigger"],
+  .site-nav .nav-trigger {
+    display: none;
+  }
+
+  .site-nav input ~ .trigger,
+  .site-nav input:checked ~ .trigger {
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem 0.9rem;
+    width: 100%;
+    padding-bottom: 0;
+  }
+
+  .site-header,
+  .site-footer {
+    margin: 1rem 0.75rem;
+  }
+
+  .post,
+  .home {
+    padding: 1.25rem;
+    border-radius: 16px;
+  }
+
+  .site-title {
+    width: 100%;
+    text-align: center;
+    font-size: clamp(0.62rem, 3.4vw, 0.85rem);
+    line-height: 1.45;
+    white-space: normal;
+  }
+
+  .site-nav .page-link {
+    font-size: 0.64rem;
+  }
+
+  .header-mailing-link,
+  .header-mailing-link:visited {
+    font-size: 0.72rem;
+    padding: 9px 14px;
+  }
+
+  .events-page .white-card,
+  .events-page .glass-card {
+    padding: 1.25rem;
+  }
+
+}

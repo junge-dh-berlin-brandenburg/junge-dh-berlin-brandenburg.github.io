@@ -1,44 +1,21 @@
 ---
 description: Homepage des Netzwerks Junge Digital Humanities in Berlin und Brandenburg
 title: "Veranstaltungen"
+layout: default
 ---
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Junge DH Berlin und Brandenburg</title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    rel="stylesheet">
-  <meta property="og:title" content="{{ page.title | strip_html | escape | remove: " -" | strip_newlines}}">
-  <meta property="og:description" content="{{ page.description }}">
-  <meta property="og:image" content="{{site.url}}{{site.baseurl}}/assets/img/small.jpg">
-  <meta property="og:image:type" content="image/jpeg">
-  <meta property="og:image:width" content="640">
-  <meta property="og:image:height" content="512">
-</head>
-
-<body>
-  <main>
-    <header class="white-card">
-  <img class="header-svg" src="{{ site.baseurl }}/assets/img/roystonlodge-Hex-Grid-for-Role-Playing-Game-Maps.svg" alt="hex grid background" aria-hidden="true">
+<section class="events-page">
+  <!--
+  <header class="white-card">
+    <img class="header-svg" src="{{ site.baseurl }}/assets/img/roystonlodge-Hex-Grid-for-Role-Playing-Game-Maps.svg" alt="hex grid background" aria-hidden="true">
     <h1 id="main-heading">Junge Digital Humanities in Berlin & Brandenburg</h1>
     <h2 id="sub-heading">Netzwerk für Early Career Researchers</h2>
     <br>
-    </header>
-    <div class="center">
-    <a class="mailing-list-button" href="https://www.listserv.dfn.de/sympa/subscribe/junge_dh_berlin-brandenburg?previous_action=info"
-      target="_blank" rel="noopener">Mailingliste abonnieren</a></div>
-    <h3>Kommende Veranstaltungen:</h3>
-    <!-- Loop through events and display them -->
-    {%assign upcoming-events = site.data.events.main_events | where_exp: "item", "item.date > site.time" %}
-    {% for item in upcoming-events %}
+  </header>
+  -->
+
+  <h3>Kommende Veranstaltungen:</h3>
+  {% assign upcoming-events = site.data.events.main_events | where_exp: "item", "item.date > site.time" %}
+  {% for item in upcoming-events %}
     <div class="glass-card">
       <h4>{{ item.title }}</h4>
       <p><strong>Datum:</strong> {{ item.date | date: "%d.%m.%Y" }}</p>
@@ -48,12 +25,13 @@ title: "Veranstaltungen"
       <p><a href="{{ item.link }}" target="_blank" rel="noopener">{%unless item.custom_link_label %}Weitere Informationen{% else %}{{item.custom_link_label}}{%endunless%}</a></p>
       {% endif %}
     </div>
-    {% endfor %}
-    <br><br>
-    <h3>Vergangene Veranstaltungen:</h3>
-    <!-- Loop through past events and display them -->
-    {%assign past-events = site.data.events.main_events | where_exp: "item", "item.date < site.time" | reverse %} {% for
-      item in past-events%} <div class="glass-card grey-card">
+  {% endfor %}
+
+  <br><br>
+  <h3>Vergangene Veranstaltungen:</h3>
+  {% assign past-events = site.data.events.main_events | where_exp: "item", "item.date < site.time" | reverse %}
+  {% for item in past-events %}
+    <div class="glass-card grey-card">
       <h4>{{ item.title }}</h4>
       <p><strong>Datum:</strong> {{ item.date | date: "%d.%m.%Y" }}</p>
       <p><strong>Ort:</strong> {{ item.location }}</p>
@@ -61,15 +39,6 @@ title: "Veranstaltungen"
       {% if item.link %}
       <p><a href="{{ item.link }}" target="_blank" rel="noopener">Weitere Informationen</a></p>
       {% endif %}
-      </div>
-      {% endfor %}
-      <!--
-    <div class="glass-card">
-      <h2>Glassmorphism</h2>
-      <p>This is a semi-transparent glass effect!</p>
     </div>
-    -->
-  </main>
-</body>
-
-</html>
+  {% endfor %}
+</section>
