@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Die Homepage des Netzwerk Junge Digital Humanities in Berlin und Brandenburg
 baseurl: "/homepage" # the subpath of your site, e.g. /blog
 url: "https://junge-dh-berlin-brandenburg.github.io"
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username:
+github_username:
 
 # Build settings
 theme: minima
