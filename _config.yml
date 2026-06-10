@@ -22,7 +22,7 @@ title: Netzwerk junge Digital Humanities in Berlin und Brandenburg
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Die Homepage des Netzwerk Junge Digital Humanities in Berlin und Brandenburg
-baseurl: "/homepage" # the subpath of your site, e.g. /blog
+baseurl: "" # root domain deployment
 url: "https://junge-dh-berlin-brandenburg.github.io"
 twitter_username:
 github_username:
