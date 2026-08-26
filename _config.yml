@@ -33,7 +33,7 @@ plugins:
   - jekyll-feed
 header_pages:
   - index.html
-  - CfP_Anti-Konferenz_2026.md
+  - termine/konferenzen/antikonferenz/Programm_Antikonferenz.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.

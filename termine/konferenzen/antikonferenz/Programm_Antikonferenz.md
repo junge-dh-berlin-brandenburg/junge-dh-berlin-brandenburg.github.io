@@ -1,6 +1,6 @@
 ---
 description: "Programm der Anti-Konferenz 2026"
-title: "Programm"
+title: "Anti-Konferenz"
 layout: default
 ---
 
