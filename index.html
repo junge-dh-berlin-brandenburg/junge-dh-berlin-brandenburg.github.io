@@ -19,7 +19,8 @@ permalink: /
   {% for item in upcoming-events %}
     <div class="glass-card">
       <h4>{{ item.title }}</h4>
-      <p><strong>Datum:</strong> {{ item.date | date: "%d.%m.%Y" }}</p>
+      <p><strong>Datum:</strong> {{ item.date | date: "%d.%m.%Y" }}<br>
+      <strong>Uhrzeit:</strong> {{ item.start | date: "%H:%M" }}–{{ item.end | date: "%H:%M" }} Uhr</p>
       <p><strong>Ort:</strong> {{ item.location }}</p>
       <p>{{ item.registration_note }}</p>
       {% if item.link %}
@@ -34,7 +35,8 @@ permalink: /
   {% for item in past-events %}
     <div class="glass-card grey-card">
       <h4>{{ item.title }}</h4>
-      <p><strong>Datum:</strong> {{ item.date | date: "%d.%m.%Y" }}</p>
+      <p><strong>Datum:</strong> {{ item.date | date: "%d.%m.%Y" }}<br>
+      <strong>Uhrzeit:</strong> {{ item.start | date: "%H:%M" }}–{{ item.end | date: "%H:%M" }} Uhr</p>
       <p><strong>Ort:</strong> {{ item.location }}</p>
       <p>{{ item.registration_note }}</p>
       {% if item.link %}
