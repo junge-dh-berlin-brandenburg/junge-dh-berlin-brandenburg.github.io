@@ -1,12 +1,12 @@
 main_events:
-  - title: Erstes Vernetzungstreffen
+  - title: "1. Vernetzungstreffen"
     date: 2025-02-03T10:00:00+01:00
     start: 2025-02-03T10:00:00+01:00
     end: 2025-02-03T12:00:00+01:00
     location: Freie Universität Berlin, Exzellenzcluster »Temporal Communities«, Otto-von-Simson-Straße 15, 14195 Berlin, Raum 00.07 (UG)
     registration_note: Anmeldung nicht erforderlich.
     organized_by:
-  - title: Zweites Vernetzungstreffen
+  - title: "2. Vernetzungstreffen"
     date: 2025-05-06T16:00:00+01:00
     start: 2025-05-06T16:00:00+01:00
     end: 2025-05-06T18:00:00+01:00
@@ -14,7 +14,7 @@ main_events:
     after_event: Ausklang ab 18:30 bei Kin Za (Krausnickstraße 23)
     registration_note: Anmeldung erwünscht.
     organized_by: Sophie Schneider
-  - title: Drittes Vernetzungstreffen
+  - title: "3. Vernetzungstreffen"
     date: 2025-09-11T16:00:00+01:00
     start: 2025-09-11T16:00:00+01:00
     end: 2025-09-11T18:00:00+01:00
@@ -22,21 +22,21 @@ main_events:
     registration_note: Anmeldung erwünscht.
     organized_by: Ruth Sander
     after_event: Ausklang ab 19:00 bei Salamat (Gartenstraße 1)
-  - title: Viertes Vernetzungstreffen und Beiträge zum Thema Schreibroutinen
+  - title: "4. Vernetzungstreffen<br>(Thema: Schreibroutinen)"
     date: 2025-12-01T16:00:00+01:00
     start: 2025-12-01T16:00:00+01:00
     end: 2025-12-01T18:00:00+01:00
     location: Berlin-Brandenburgische Akademie der Wissenschaften, Jägerstraße 22/23
     registration_note: Anmeldung zur Teilnahme und für Impulsbeiträge erwünscht.
     organized_by: Ruth Sander
-  - title: "Fünftes Vernetzungstreffen (Thema: KI Tools)"
+  - title: "5. Vernetzungstreffen<br>(Thema: KI Tools)"
     date: 2026-03-05T16:00:00+01:00
     start: 2026-05-05T16:00:00+01:00
     end: 2026-03-05T18:00:00+01:00
     location: Berlin-Brandenburgische Akademie der Wissenschaften, Jägerstraße 22/23
     organized_by: Ruth Sander
     registration_note: Anmeldung zur Teilnahme und für Impulsbeiträge erwünscht.
-  - title: "Sechstes Vernetzungstreffen (Thema: Promotionsformen und Publikationsformen in den DH)"
+  - title: "6. Vernetzungstreffen<br>(Thema: Promotionsformen und Publikationsformen in den DH)"
     date: 2026-06-03T16:00:00+01:00
     start: 2026-06-03T16:00:00+01:00
     end: 2026-06-03T18:00:00+01:00
@@ -48,7 +48,14 @@ main_events:
     start: 2026-10-02T16:00:00+01:00
     end: 2026-10-02T18:00:00+01:00
     location: Mehringhof
-    link: /CfP_Anti-Konferenz_2026.html
-    custom_link_label: Zum Call for Papers
+    link: /termine/konferenzen/antikonferenz/Programm_Antikonferenz.html
+    custom_link_label: Zum Programm
     organized_by:
     registration_note:
+  - title: "7. Vernetzungstreffen <br>(Thema: Web- und Social Media-Auftritte)"
+    date: 2026-09-07T16:00:00+01:00
+    start: 2026-09-07T16:00:00+01:00
+    end: 2026-09-07T18:00:00+01:00
+    location: Berlin-Brandenburgische Akademie der Wissenschaften, Jägerstraße 22/23
+    organized_by: Ruth Sander
+    registration_note: Anmeldung zur Teilnahme und für Impulsbeiträge erwünscht.
