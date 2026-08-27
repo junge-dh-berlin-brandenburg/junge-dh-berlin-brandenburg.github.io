@@ -20,6 +20,9 @@ table {overflow-x: scroll; width: 100%; @media screen and (width <= 500px) {font
 **Zeit:** 2\. Oktober 2026 — <span class="zeit">10:00-17:00 Uhr</span>
 
 **Ort**: Mehringhof, Kreuzberg, Berlin
+
+**Anmeldung**: Die Teilnahme ist kostenlos, Fahrtkosten können teilweise übernommen werden. Anmeldung bis zum 21. September 2026 über folgendes Formular: **[Anmeldung zur Anti-Konferenz](https://fmsup-ext.uni-potsdam.de/fs-extern/form/alias/1/antikonferenz_anmeldung)**
+
 <div class="callout">
 Organisiert vom Netzwerk junge Digital Humanities Berlin-Brandenburg in Kooperation mit dem Netzwerk Digitale Geisteswissenschaften Potsdam und der AG Empowerment des DHd-Verbands
 </div>
@@ -38,6 +41,11 @@ Organisiert vom Netzwerk junge Digital Humanities Berlin-Brandenburg in Kooperat
 | <span class="zeit">15:45–16:00</span> | **Josefines Väter:<br>Ein Ratespiel ohne Ende**<br>(Laura Untner, Freie Universität Berlin)|
 | <span class="zeit">16:00–16:45</span> | **Research Canvas Bootcamp:<br>How to fail in DH-Projekten?**<br>(Tony Franzky, Erzbischöfliches Archiv Freiburg)|
 | <span class="zeit">16:45–17:00</span> | Verabschiedung |
+
+---
+
+<br>
+**Organisationsteam**: Henny Sluyter-Gäthje, Laura Untner, Ruth Sander, Johannes Ioannu und Mark Schwindt
 
 ---
 <br>
