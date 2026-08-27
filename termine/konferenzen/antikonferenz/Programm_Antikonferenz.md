@@ -1,5 +1,5 @@
 ---
-description: "Programm der Anti-Konferenz 'Scheitern in den Digital Humanities' 2026"
+description: "Programm der Anti-Konferenz 'Scheitern in den Digital Humanities' (2026)"
 title: "Anti-Konferenz"
 layout: default
 ---
