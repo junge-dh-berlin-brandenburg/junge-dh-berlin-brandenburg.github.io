@@ -31,7 +31,7 @@ Organisiert vom Netzwerk junge Digital Humanities Berlin-Brandenburg in Kooperat
 |Zeit|Programmpunkt|
 |------------|----|
 | <span class="zeit">10:00–10:15</span> | Begrüßung |
-| <span class="zeit">10:15–11:00</span> | **Bingo des Scheiterns**<br>(<span class="speaker">Frederike Neuber, Berlin-Brandenburgische Akademie der Wissenschaften</span>)|
+| <span class="zeit">10:15–11:00</span> | **Bingo des Scheiterns**<br>(<span class="speaker">Frederike Neuber, Lou Klappenbach, Claus Franke (Berlin-Brandenburgische Akademie der Wissenschaften)</span>)|
 | <span class="zeit">11:00–12:00</span> | **Vom Scheitern zum Lernen:<br>Ein World Café zu Fehlerkultur in den Digital Humanities**<br>(<span class="speaker">Anja Gerber, Klassik Stiftung Weimar/NFDI4Objects</span>)|
 | <span class="zeit">12:00–13:30</span> | Mittagspause|
 | <span class="zeit">13:30–14:15</span> | <span class="waypoint">Keynote:</span><br>**Halt and Catch Fire**<br>(<span class="speaker">Tessa Gengnagel, Cologne Center for eHumanities, Universität Köln</span>)|
