@@ -28,6 +28,8 @@ Organisiert vom Netzwerk junge Digital Humanities Berlin-Brandenburg in Kooperat
 </div>
 <br>
 
+{%include download-button.html type="pdf" href="/assets/pdf/20260902-Anti-Konferenz-Poster.pdf" label="Programm"%}
+
 |Zeit|Programmpunkt|
 |------------|----|
 | <span class="zeit">10:00–10:15</span> | Begrüßung |
