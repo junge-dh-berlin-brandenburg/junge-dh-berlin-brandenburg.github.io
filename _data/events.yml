@@ -47,7 +47,7 @@ main_events:
     date: 2026-10-02T10:00:00+01:00
     start: 2026-10-02T10:00:00+01:00
     end: 2026-10-02T17:00:00+01:00
-    location: Mehringhof
+    location: Mehringhof <br>Gneisenaustr. 2a, 10961 Berlin
     link: /termine/konferenzen/antikonferenz/Programm_Antikonferenz.html
     custom_link_label: Zum Programm
     organized_by:

@@ -19,7 +19,7 @@ table {overflow-x: scroll; width: 100%; @media screen and (width <= 500px) {font
 
 **Zeit:** 2\. Oktober 2026 — <span class="zeit">10:00-17:00 Uhr</span>
 
-**Ort**: Mehringhof, Kreuzberg, Berlin
+**Ort**: Mehringhof, Gneisenaustr. 2a, 10961 Berlin (Kreuzberg)
 
 **Anmeldung**: Die Teilnahme ist kostenlos, Fahrtkosten können teilweise übernommen werden. Anmeldung bis zum 21. September 2026 über folgendes Formular: **[Anmeldung zur Anti-Konferenz](https://fmsup-ext.uni-potsdam.de/fs-extern/form/alias/1/antikonferenz_anmeldung)**
 
