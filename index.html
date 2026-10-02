@@ -14,9 +14,14 @@ permalink: /
   </header>
   -->
 
+  {% comment %}Events count as past only from the day after their end date (compared as YYYYMMDD integers).{% endcomment %}
+  {% assign today = site.time | date: "%Y%m%d" | plus: 0 %}
+  {% assign sorted-events = site.data.events.main_events | sort: "date" %}
+
   <h3>Kommende Veranstaltungen:</h3>
-  {% assign upcoming-events = site.data.events.main_events | where_exp: "item", "item.date > site.time" | sort: "date" %}
-  {% for item in upcoming-events %}
+  {% for item in sorted-events %}
+    {% assign end-day = item.end | date: "%Y%m%d" | plus: 0 %}
+    {% if end-day < today %}{% continue %}{% endif %}
     <div class="glass-card">
       <h4>{{ item.title }}</h4>
       <p><strong>Datum:</strong> {{ item.date | date: "%d.%m.%Y" }}<br>
@@ -31,8 +36,10 @@ permalink: /
 
   <br><br>
   <h3>Vergangene Veranstaltungen:</h3>
-  {% assign past-events = site.data.events.main_events | where_exp: "item", "item.date < site.time" | sort: "date" | reverse %}
+  {% assign past-events = sorted-events | reverse %}
   {% for item in past-events %}
+    {% assign end-day = item.end | date: "%Y%m%d" | plus: 0 %}
+    {% if end-day >= today %}{% continue %}{% endif %}
     <div class="glass-card grey-card">
       <h4>{{ item.title }}</h4>
       <p><strong>Datum:</strong> {{ item.date | date: "%d.%m.%Y" }}<br>
